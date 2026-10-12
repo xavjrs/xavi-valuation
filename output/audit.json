@@ -1,0 +1,523 @@
+{
+  "run_at": "2026-10-12 19:19",
+  "passed": 86,
+  "total": 86,
+  "results": [
+    {
+      "area": "Data",
+      "check": "SHELL FY2021\u201325: assets = liabilities + equity",
+      "passed": true,
+      "detail": "max difference $0.0m"
+    },
+    {
+      "area": "Data",
+      "check": "SHELL FY2021\u201325: equity = shareholders + minorities",
+      "passed": true,
+      "detail": "max difference $0.0m"
+    },
+    {
+      "area": "Data",
+      "check": "SHELL FY2021\u201325: pre-tax profit \u2212 tax = net income",
+      "passed": true,
+      "detail": "max difference $0.0m"
+    },
+    {
+      "area": "Data",
+      "check": "SHELL: no missing core lines",
+      "passed": true,
+      "detail": "0 missing cells"
+    },
+    {
+      "area": "Data",
+      "check": "BP FY2021\u201325: assets = liabilities + equity",
+      "passed": true,
+      "detail": "max difference $0.0m"
+    },
+    {
+      "area": "Data",
+      "check": "BP FY2021\u201325: equity = shareholders + minorities",
+      "passed": true,
+      "detail": "max difference $0.0m"
+    },
+    {
+      "area": "Data",
+      "check": "BP FY2021\u201325: pre-tax profit \u2212 tax = net income",
+      "passed": true,
+      "detail": "max difference $0.0m"
+    },
+    {
+      "area": "Data",
+      "check": "BP: no missing core lines",
+      "passed": true,
+      "detail": "0 missing cells"
+    },
+    {
+      "area": "Data",
+      "check": "Shell segments 2023: revenue_third_party ties to group accounts",
+      "passed": true,
+      "detail": "segment total 316,620 vs group 316,620"
+    },
+    {
+      "area": "Data",
+      "check": "Shell segments 2023: capex ties to group accounts",
+      "passed": true,
+      "detail": "segment total 22,993 vs group 22,993"
+    },
+    {
+      "area": "Data",
+      "check": "Shell segments 2023: dda ties to group accounts",
+      "passed": true,
+      "detail": "segment total 31,290 vs group 31,290"
+    },
+    {
+      "area": "Data",
+      "check": "Shell segments 2023: tax ties to group accounts",
+      "passed": true,
+      "detail": "segment total 12,991 vs group 12,991"
+    },
+    {
+      "area": "Data",
+      "check": "Shell segments 2023: income ties to group accounts",
+      "passed": true,
+      "detail": "segment total 19,636 vs group 19,636"
+    },
+    {
+      "area": "Data",
+      "check": "Shell segments 2024: revenue_third_party ties to group accounts",
+      "passed": true,
+      "detail": "segment total 284,312 vs group 284,312"
+    },
+    {
+      "area": "Data",
+      "check": "Shell segments 2024: capex ties to group accounts",
+      "passed": true,
+      "detail": "segment total 19,601 vs group 19,601"
+    },
+    {
+      "area": "Data",
+      "check": "Shell segments 2024: dda ties to group accounts",
+      "passed": true,
+      "detail": "segment total 26,872 vs group 26,872"
+    },
+    {
+      "area": "Data",
+      "check": "Shell segments 2024: tax ties to group accounts",
+      "passed": true,
+      "detail": "segment total 13,401 vs group 13,401"
+    },
+    {
+      "area": "Data",
+      "check": "Shell segments 2024: income ties to group accounts",
+      "passed": true,
+      "detail": "segment total 16,521 vs group 16,521"
+    },
+    {
+      "area": "Data",
+      "check": "Shell segments 2025: revenue_third_party ties to group accounts",
+      "passed": true,
+      "detail": "segment total 266,886 vs group 266,886"
+    },
+    {
+      "area": "Data",
+      "check": "Shell segments 2025: capex ties to group accounts",
+      "passed": true,
+      "detail": "segment total 18,947 vs group 18,947"
+    },
+    {
+      "area": "Data",
+      "check": "Shell segments 2025: dda ties to group accounts",
+      "passed": true,
+      "detail": "segment total 25,299 vs group 25,299"
+    },
+    {
+      "area": "Data",
+      "check": "Shell segments 2025: tax ties to group accounts",
+      "passed": true,
+      "detail": "segment total 11,637 vs group 11,637"
+    },
+    {
+      "area": "Data",
+      "check": "Shell segments 2025: income ties to group accounts",
+      "passed": true,
+      "detail": "segment total 18,119 vs group 18,119"
+    },
+    {
+      "area": "Data",
+      "check": "Shell segments: every row sums to its reported total",
+      "passed": true,
+      "detail": "max rounding difference $0m"
+    },
+    {
+      "area": "Data",
+      "check": "Price history is recent (\u2264 7 days old)",
+      "passed": true,
+      "detail": "last price 2026-10-12, 0 days old"
+    },
+    {
+      "area": "Data",
+      "check": "Market inputs match the latest price date",
+      "passed": true,
+      "detail": "market inputs 2026-10-12 vs prices 2026-10-12"
+    },
+    {
+      "area": "Data",
+      "check": "Price gaps are holiday-sized only (< 5% of days)",
+      "passed": true,
+      "detail": "max gaps 52 of 1503 days"
+    },
+    {
+      "area": "Forecast",
+      "check": "SHELL bear: balance sheet balances every year",
+      "passed": true,
+      "detail": "max imbalance 5.8e-11"
+    },
+    {
+      "area": "Forecast",
+      "check": "SHELL bear: cash rolls forward from the cash flow",
+      "passed": true,
+      "detail": "max difference 7.3e-12"
+    },
+    {
+      "area": "Forecast",
+      "check": "SHELL base: balance sheet balances every year",
+      "passed": true,
+      "detail": "max imbalance 1.2e-10"
+    },
+    {
+      "area": "Forecast",
+      "check": "SHELL base: cash rolls forward from the cash flow",
+      "passed": true,
+      "detail": "max difference 1.1e-11"
+    },
+    {
+      "area": "Forecast",
+      "check": "SHELL bull: balance sheet balances every year",
+      "passed": true,
+      "detail": "max imbalance 2.9e-11"
+    },
+    {
+      "area": "Forecast",
+      "check": "SHELL bull: cash rolls forward from the cash flow",
+      "passed": true,
+      "detail": "max difference 1.1e-11"
+    },
+    {
+      "area": "Forecast",
+      "check": "BP bear: balance sheet balances every year",
+      "passed": true,
+      "detail": "max imbalance 8.7e-11"
+    },
+    {
+      "area": "Forecast",
+      "check": "BP bear: cash rolls forward from the cash flow",
+      "passed": true,
+      "detail": "max difference 7.3e-12"
+    },
+    {
+      "area": "Forecast",
+      "check": "BP base: balance sheet balances every year",
+      "passed": true,
+      "detail": "max imbalance 6.5e-11"
+    },
+    {
+      "area": "Forecast",
+      "check": "BP base: cash rolls forward from the cash flow",
+      "passed": true,
+      "detail": "max difference 7.3e-12"
+    },
+    {
+      "area": "Forecast",
+      "check": "BP bull: balance sheet balances every year",
+      "passed": true,
+      "detail": "max imbalance 4.4e-11"
+    },
+    {
+      "area": "Forecast",
+      "check": "BP bull: cash rolls forward from the cash flow",
+      "passed": true,
+      "detail": "max difference 1.5e-11"
+    },
+    {
+      "area": "DCF",
+      "check": "SHELL: equity bridge adds up",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "area": "DCF",
+      "check": "SHELL: EV = PV of flows + PV of terminal value",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "area": "DCF",
+      "check": "SHELL: sensitivity grid centre = point estimate",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "area": "Monte Carlo",
+      "check": "SHELL: zero-shock path reproduces the DCF",
+      "passed": true,
+      "detail": "2,621.1419p vs 2,621.1419p"
+    },
+    {
+      "area": "DCF",
+      "check": "BP: equity bridge adds up",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "area": "DCF",
+      "check": "BP: EV = PV of flows + PV of terminal value",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "area": "DCF",
+      "check": "BP: sensitivity grid centre = point estimate",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "area": "Monte Carlo",
+      "check": "BP: zero-shock path reproduces the DCF",
+      "passed": true,
+      "detail": "907.9631p vs 907.9631p"
+    },
+    {
+      "area": "LBO",
+      "check": "Integrated Gas: sources = uses",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "area": "LBO",
+      "check": "Integrated Gas: returns bridge reconciles",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "area": "LBO",
+      "check": "Integrated Gas: cash rolls forward",
+      "passed": true,
+      "detail": "max difference 0.0e+00"
+    },
+    {
+      "area": "LBO",
+      "check": "Integrated Gas: financeability reported",
+      "passed": true,
+      "detail": "financeable"
+    },
+    {
+      "area": "LBO",
+      "check": "Upstream: sources = uses",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "area": "LBO",
+      "check": "Upstream: returns bridge reconciles",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "area": "LBO",
+      "check": "Upstream: cash rolls forward",
+      "passed": true,
+      "detail": "max difference 0.0e+00"
+    },
+    {
+      "area": "LBO",
+      "check": "Upstream: financeability reported",
+      "passed": true,
+      "detail": "financeable"
+    },
+    {
+      "area": "LBO",
+      "check": "Marketing: sources = uses",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "area": "LBO",
+      "check": "Marketing: returns bridge reconciles",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "area": "LBO",
+      "check": "Marketing: cash rolls forward",
+      "passed": true,
+      "detail": "max difference 0.0e+00"
+    },
+    {
+      "area": "LBO",
+      "check": "Marketing: financeability reported",
+      "passed": true,
+      "detail": "financeable"
+    },
+    {
+      "area": "LBO",
+      "check": "Chemicals and Products: sources = uses",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "area": "LBO",
+      "check": "Chemicals and Products: returns bridge reconciles",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "area": "LBO",
+      "check": "Chemicals and Products: cash rolls forward",
+      "passed": true,
+      "detail": "max difference 0.0e+00"
+    },
+    {
+      "area": "LBO",
+      "check": "Chemicals and Products: financeability reported",
+      "passed": true,
+      "detail": "flagged NOT financeable (by design for weak divisions)"
+    },
+    {
+      "area": "LBO",
+      "check": "Renewables and Energy Solutions: sources = uses",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "area": "LBO",
+      "check": "Renewables and Energy Solutions: returns bridge reconciles",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "area": "LBO",
+      "check": "Renewables and Energy Solutions: cash rolls forward",
+      "passed": true,
+      "detail": "max difference 0.0e+00"
+    },
+    {
+      "area": "LBO",
+      "check": "Renewables and Energy Solutions: financeability reported",
+      "passed": true,
+      "detail": "flagged NOT financeable (by design for weak divisions)"
+    },
+    {
+      "area": "Merger",
+      "check": "default terms: opening balance sheet balances",
+      "passed": true,
+      "detail": "-2.9e-11"
+    },
+    {
+      "area": "Merger",
+      "check": "default terms: pro forma forecast balances",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "area": "Merger",
+      "check": "default terms: sources = uses",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "area": "Merger",
+      "check": "default terms: goodwill = price \u2212 fair value of net assets",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "area": "Merger",
+      "check": "all stock, 10% divested: opening balance sheet balances",
+      "passed": true,
+      "detail": "-5.8e-11"
+    },
+    {
+      "area": "Merger",
+      "check": "all stock, 10% divested: pro forma forecast balances",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "area": "Merger",
+      "check": "all stock, 10% divested: sources = uses",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "area": "Merger",
+      "check": "all stock, 10% divested: goodwill = price \u2212 fair value of net assets",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "area": "Merger",
+      "check": "all cash, 50% premium: opening balance sheet balances",
+      "passed": true,
+      "detail": "-2.9e-11"
+    },
+    {
+      "area": "Merger",
+      "check": "all cash, 50% premium: pro forma forecast balances",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "area": "Merger",
+      "check": "all cash, 50% premium: sources = uses",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "area": "Merger",
+      "check": "all cash, 50% premium: goodwill = price \u2212 fair value of net assets",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "area": "Portfolio",
+      "check": "All strategies: weights sum to 100% within caps",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "area": "Portfolio",
+      "check": "Minimum-variance portfolio has the lowest volatility",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "area": "Portfolio",
+      "check": "Maximum-Sharpe portfolio has the highest Sharpe ratio",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "area": "Portfolio",
+      "check": "Backtest uses no future data",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "area": "Excel",
+      "check": "Workbook has no formula errors",
+      "passed": true,
+      "detail": "1,082 formulas, 0 errors, 0 uncalculated"
+    },
+    {
+      "area": "Excel",
+      "check": "Workbook reconciles to the Python engine",
+      "passed": true,
+      "detail": "36 of 36 reconciliation lines pass"
+    },
+    {
+      "area": "Tests",
+      "check": "Automated test suite passes",
+      "passed": true,
+      "detail": "87 passed in 6.81s"
+    }
+  ]
+}

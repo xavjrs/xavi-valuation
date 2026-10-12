@@ -1,0 +1,295 @@
+year,segment,metric,usd_m
+2025,Integrated Gas,revenue_third_party,38457.0
+2025,Upstream,revenue_third_party,5105.0
+2025,Marketing,revenue_third_party,111855.0
+2025,Chemicals and Products,revenue_third_party,77071.0
+2025,Renewables and Energy Solutions,revenue_third_party,34359.0
+2025,Corporate,revenue_third_party,39.0
+2025,Total,revenue_third_party,266886.0
+2025,Integrated Gas,revenue_inter_segment,10288.0
+2025,Upstream,revenue_inter_segment,35968.0
+2025,Marketing,revenue_inter_segment,7539.0
+2025,Chemicals and Products,revenue_inter_segment,35293.0
+2025,Renewables and Energy Solutions,revenue_inter_segment,4384.0
+2025,Corporate,revenue_inter_segment,0.0
+2025,Total,revenue_inter_segment,93472.0
+2025,Integrated Gas,jv_share,1407.0
+2025,Upstream,jv_share,814.0
+2025,Marketing,jv_share,-821.0
+2025,Chemicals and Products,jv_share,383.0
+2025,Renewables and Energy Solutions,jv_share,-165.0
+2025,Corporate,jv_share,0.0
+2025,Total,jv_share,1618.0
+2025,Integrated Gas,purchases,27613.0
+2025,Upstream,purchases,5833.0
+2025,Marketing,purchases,100843.0
+2025,Chemicals and Products,purchases,100543.0
+2025,Renewables and Energy Solutions,purchases,35811.0
+2025,Corporate,purchases,23.0
+2025,Total,purchases,270666.0
+2025,Integrated Gas,opex,4217.0
+2025,Upstream,opex,9004.0
+2025,Marketing,opex,10649.0
+2025,Chemicals and Products,opex,8372.0
+2025,Renewables and Energy Solutions,opex,2550.0
+2025,Corporate,opex,883.0
+2025,Total,opex,35675.0
+2025,Integrated Gas,dda,6792.0
+2025,Upstream,dda,10142.0
+2025,Marketing,dda,3499.0
+2025,Chemicals and Products,dda,4173.0
+2025,Renewables and Energy Solutions,dda,656.0
+2025,Corporate,dda,37.0
+2025,Total,dda,25299.0
+2025,Integrated Gas,impairment_losses,686.0
+2025,Upstream,impairment_losses,237.0
+2025,Marketing,impairment_losses,1229.0
+2025,Chemicals and Products,impairment_losses,713.0
+2025,Renewables and Energy Solutions,impairment_losses,299.0
+2025,Corporate,impairment_losses,11.0
+2025,Total,impairment_losses,3175.0
+2025,Integrated Gas,impairment_reversals,0.0
+2025,Upstream,impairment_reversals,0.0
+2025,Marketing,impairment_reversals,-32.0
+2025,Chemicals and Products,impairment_reversals,-7.0
+2025,Renewables and Energy Solutions,impairment_reversals,-3.0
+2025,Corporate,impairment_reversals,0.0
+2025,Total,impairment_reversals,-42.0
+2025,Integrated Gas,interest_expense,216.0
+2025,Upstream,interest_expense,718.0
+2025,Marketing,interest_expense,61.0
+2025,Chemicals and Products,interest_expense,53.0
+2025,Renewables and Energy Solutions,interest_expense,11.0
+2025,Corporate,interest_expense,3612.0
+2025,Total,interest_expense,4671.0
+2025,Integrated Gas,tax,2548.0
+2025,Upstream,tax,8809.0
+2025,Marketing,tax,1205.0
+2025,Chemicals and Products,tax,229.0
+2025,Renewables and Energy Solutions,tax,89.0
+2025,Corporate,tax,-1243.0
+2025,Total,tax,11637.0
+2025,Integrated Gas,income,8820.0
+2025,Upstream,income,9443.0
+2025,Marketing,income,2057.0
+2025,Chemicals and Products,income,262.0
+2025,Renewables and Energy Solutions,income,-489.0
+2025,Corporate,income,-1974.0
+2025,Total,income,18119.0
+2025,Integrated Gas,ccs_adjustment_pre_tax,0.0
+2025,Upstream,ccs_adjustment_pre_tax,0.0
+2025,Marketing,ccs_adjustment_pre_tax,304.0
+2025,Chemicals and Products,ccs_adjustment_pre_tax,567.0
+2025,Renewables and Energy Solutions,ccs_adjustment_pre_tax,0.0
+2025,Corporate,ccs_adjustment_pre_tax,0.0
+2025,Total,ccs_adjustment_pre_tax,871.0
+2025,Integrated Gas,adjusted_earnings,8024.0
+2025,Upstream,adjusted_earnings,7442.0
+2025,Marketing,adjusted_earnings,3994.0
+2025,Chemicals and Products,adjusted_earnings,1051.0
+2025,Renewables and Energy Solutions,adjusted_earnings,172.0
+2025,Corporate,adjusted_earnings,-1870.0
+2025,Total,adjusted_earnings,18813.0
+2025,Integrated Gas,capex,3952.0
+2025,Upstream,capex,8849.0
+2025,Marketing,capex,1841.0
+2025,Chemicals and Products,capex,2716.0
+2025,Renewables and Energy Solutions,capex,1477.0
+2025,Corporate,capex,112.0
+2025,Total,capex,18947.0
+2024,Integrated Gas,revenue_third_party,37290.0
+2024,Upstream,revenue_third_party,6606.0
+2024,Marketing,revenue_third_party,120089.0
+2024,Chemicals and Products,revenue_third_party,90918.0
+2024,Renewables and Energy Solutions,revenue_third_party,29366.0
+2024,Corporate,revenue_third_party,43.0
+2024,Total,revenue_third_party,284312.0
+2024,Integrated Gas,revenue_inter_segment,8715.0
+2024,Upstream,revenue_inter_segment,39939.0
+2024,Marketing,revenue_inter_segment,4938.0
+2024,Chemicals and Products,revenue_inter_segment,38381.0
+2024,Renewables and Energy Solutions,revenue_inter_segment,4971.0
+2024,Corporate,revenue_inter_segment,0.0
+2024,Total,revenue_inter_segment,96944.0
+2024,Integrated Gas,jv_share,1931.0
+2024,Upstream,jv_share,1189.0
+2024,Marketing,jv_share,32.0
+2024,Chemicals and Products,jv_share,648.0
+2024,Renewables and Energy Solutions,jv_share,-807.0
+2024,Corporate,jv_share,0.0
+2024,Total,jv_share,2993.0
+2024,Integrated Gas,purchases,24055.0
+2024,Upstream,purchases,7368.0
+2024,Marketing,purchases,107490.0
+2024,Chemicals and Products,purchases,115080.0
+2024,Renewables and Energy Solutions,purchases,31074.0
+2024,Corporate,purchases,-3.0
+2024,Total,purchases,285064.0
+2024,Integrated Gas,opex,4442.0
+2024,Upstream,opex,9790.0
+2024,Marketing,opex,10681.0
+2024,Chemicals and Products,opex,8392.0
+2024,Renewables and Energy Solutions,opex,2915.0
+2024,Corporate,opex,697.0
+2024,Total,opex,36917.0
+2024,Integrated Gas,dda,6150.0
+2024,Upstream,dda,11223.0
+2024,Marketing,dda,3866.0
+2024,Chemicals and Products,dda,4700.0
+2024,Renewables and Energy Solutions,dda,907.0
+2024,Corporate,dda,26.0
+2024,Total,dda,26872.0
+2024,Integrated Gas,impairment_losses,564.0
+2024,Upstream,impairment_losses,327.0
+2024,Marketing,impairment_losses,1633.0
+2024,Chemicals and Products,impairment_losses,1319.0
+2024,Renewables and Energy Solutions,impairment_losses,658.0
+2024,Corporate,impairment_losses,1.0
+2024,Total,impairment_losses,4502.0
+2024,Integrated Gas,impairment_reversals,-9.0
+2024,Upstream,impairment_reversals,-75.0
+2024,Marketing,impairment_reversals,-1.0
+2024,Chemicals and Products,impairment_reversals,-114.0
+2024,Renewables and Energy Solutions,impairment_reversals,-134.0
+2024,Corporate,impairment_reversals,0.0
+2024,Total,impairment_reversals,-333.0
+2024,Integrated Gas,interest_expense,189.0
+2024,Upstream,interest_expense,806.0
+2024,Marketing,interest_expense,56.0
+2024,Chemicals and Products,interest_expense,70.0
+2024,Renewables and Energy Solutions,interest_expense,6.0
+2024,Corporate,interest_expense,3660.0
+2024,Total,interest_expense,4787.0
+2024,Integrated Gas,tax,3144.0
+2024,Upstream,tax,9387.0
+2024,Marketing,tax,825.0
+2024,Chemicals and Products,tax,155.0
+2024,Renewables and Energy Solutions,tax,99.0
+2024,Corporate,tax,-209.0
+2024,Total,tax,13401.0
+2024,Integrated Gas,income,9590.0
+2024,Upstream,income,7772.0
+2024,Marketing,income,1709.0
+2024,Chemicals and Products,income,1671.0
+2024,Renewables and Energy Solutions,income,-1229.0
+2024,Corporate,income,-2992.0
+2024,Total,income,16521.0
+2024,Integrated Gas,ccs_adjustment_pre_tax,0.0
+2024,Upstream,ccs_adjustment_pre_tax,0.0
+2024,Marketing,ccs_adjustment_pre_tax,254.0
+2024,Chemicals and Products,ccs_adjustment_pre_tax,109.0
+2024,Renewables and Energy Solutions,ccs_adjustment_pre_tax,0.0
+2024,Corporate,ccs_adjustment_pre_tax,0.0
+2024,Total,ccs_adjustment_pre_tax,363.0
+2024,Integrated Gas,adjusted_earnings,11390.0
+2024,Upstream,adjusted_earnings,8395.0
+2024,Marketing,adjusted_earnings,3885.0
+2024,Chemicals and Products,adjusted_earnings,2934.0
+2024,Renewables and Energy Solutions,adjusted_earnings,-497.0
+2024,Corporate,adjusted_earnings,-1968.0
+2024,Total,adjusted_earnings,24139.0
+2024,Integrated Gas,capex,4095.0
+2024,Upstream,capex,7739.0
+2024,Marketing,capex,2357.0
+2024,Chemicals and Products,capex,2943.0
+2024,Renewables and Energy Solutions,capex,2338.0
+2024,Corporate,capex,129.0
+2024,Total,capex,19601.0
+2023,Integrated Gas,revenue_third_party,37645.0
+2023,Upstream,revenue_third_party,6475.0
+2023,Marketing,revenue_third_party,130559.0
+2023,Chemicals and Products,revenue_third_party,97080.0
+2023,Renewables and Energy Solutions,revenue_third_party,44819.0
+2023,Corporate,revenue_third_party,42.0
+2023,Total,revenue_third_party,316620.0
+2023,Integrated Gas,revenue_inter_segment,11560.0
+2023,Upstream,revenue_inter_segment,41230.0
+2023,Marketing,revenue_inter_segment,5299.0
+2023,Chemicals and Products,revenue_inter_segment,42816.0
+2023,Renewables and Energy Solutions,revenue_inter_segment,4707.0
+2023,Corporate,revenue_inter_segment,0.0
+2023,Total,revenue_inter_segment,105612.0
+2023,Integrated Gas,jv_share,1951.0
+2023,Upstream,jv_share,768.0
+2023,Marketing,jv_share,536.0
+2023,Chemicals and Products,jv_share,569.0
+2023,Renewables and Energy Solutions,jv_share,-96.0
+2023,Corporate,jv_share,-3.0
+2023,Total,jv_share,3725.0
+2023,Integrated Gas,purchases,27356.0
+2023,Upstream,purchases,7890.0
+2023,Marketing,purchases,119366.0
+2023,Chemicals and Products,purchases,123698.0
+2023,Renewables and Energy Solutions,purchases,40170.0
+2023,Corporate,purchases,15.0
+2023,Total,purchases,318495.0
+2023,Integrated Gas,opex,4809.0
+2023,Upstream,opex,9830.0
+2023,Marketing,opex,11142.0
+2023,Chemicals and Products,opex,9598.0
+2023,Renewables and Energy Solutions,opex,3763.0
+2023,Corporate,opex,818.0
+2023,Total,opex,39960.0
+2023,Integrated Gas,dda,8903.0
+2023,Upstream,dda,12463.0
+2023,Marketing,dda,2477.0
+2023,Chemicals and Products,dda,6269.0
+2023,Renewables and Energy Solutions,dda,1159.0
+2023,Corporate,dda,19.0
+2023,Total,dda,31290.0
+2023,Integrated Gas,impairment_losses,3472.0
+2023,Upstream,impairment_losses,1360.0
+2023,Marketing,impairment_losses,430.0
+2023,Chemicals and Products,impairment_losses,2777.0
+2023,Renewables and Energy Solutions,impairment_losses,908.0
+2023,Corporate,impairment_losses,0.0
+2023,Total,impairment_losses,8947.0
+2023,Integrated Gas,impairment_reversals,-324.0
+2023,Upstream,impairment_reversals,-206.0
+2023,Marketing,impairment_reversals,-1.0
+2023,Chemicals and Products,impairment_reversals,-90.0
+2023,Renewables and Energy Solutions,impairment_reversals,-141.0
+2023,Corporate,impairment_reversals,0.0
+2023,Total,impairment_reversals,-762.0
+2023,Integrated Gas,interest_expense,146.0
+2023,Upstream,interest_expense,507.0
+2023,Marketing,interest_expense,53.0
+2023,Chemicals and Products,interest_expense,61.0
+2023,Renewables and Energy Solutions,interest_expense,4.0
+2023,Corporate,interest_expense,3902.0
+2023,Total,interest_expense,4673.0
+2023,Integrated Gas,tax,2806.0
+2023,Upstream,tax,8380.0
+2023,Marketing,tax,739.0
+2023,Chemicals and Products,tax,-301.0
+2023,Renewables and Energy Solutions,tax,1320.0
+2023,Corporate,tax,47.0
+2023,Total,tax,12991.0
+2023,Integrated Gas,income,7057.0
+2023,Upstream,income,8540.0
+2023,Marketing,income,2690.0
+2023,Chemicals and Products,income,1204.0
+2023,Renewables and Energy Solutions,income,3089.0
+2023,Corporate,income,-2944.0
+2023,Total,income,19636.0
+2023,Integrated Gas,ccs_adjustment_pre_tax,0.0
+2023,Upstream,ccs_adjustment_pre_tax,0.0
+2023,Marketing,ccs_adjustment_pre_tax,478.0
+2023,Chemicals and Products,ccs_adjustment_pre_tax,370.0
+2023,Renewables and Energy Solutions,ccs_adjustment_pre_tax,0.0
+2023,Corporate,ccs_adjustment_pre_tax,0.0
+2023,Total,ccs_adjustment_pre_tax,848.0
+2023,Integrated Gas,adjusted_earnings,13919.0
+2023,Upstream,adjusted_earnings,9806.0
+2023,Marketing,adjusted_earnings,3312.0
+2023,Chemicals and Products,adjusted_earnings,3616.0
+2023,Renewables and Energy Solutions,adjusted_earnings,756.0
+2023,Corporate,adjusted_earnings,-2875.0
+2023,Total,adjusted_earnings,28534.0
+2023,Integrated Gas,capex,3491.0
+2023,Upstream,capex,8249.0
+2023,Marketing,capex,5741.0
+2023,Chemicals and Products,capex,2928.0
+2023,Renewables and Energy Solutions,capex,2314.0
+2023,Corporate,capex,270.0
+2023,Total,capex,22993.0

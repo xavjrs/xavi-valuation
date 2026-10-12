@@ -1,0 +1,27 @@
+# XAVI theme: always dark, champagne-gold accent. The light and dark variants are identical on purpose so the
+# app keeps its look whatever the viewer's system setting.
+[theme]
+base = "dark"
+primaryColor = "#C9A961"
+backgroundColor = "#0A0A0C"
+secondaryBackgroundColor = "#111114"
+textColor = "#EDE6D6"
+
+[theme.dark]
+primaryColor = "#C9A961"
+backgroundColor = "#0A0A0C"
+secondaryBackgroundColor = "#111114"
+textColor = "#EDE6D6"
+
+[theme.light]
+primaryColor = "#C9A961"
+backgroundColor = "#0A0A0C"
+secondaryBackgroundColor = "#111114"
+textColor = "#EDE6D6"
+
+[server]
+headless = true
+runOnSave = false
+
+[browser]
+gatherUsageStats = false

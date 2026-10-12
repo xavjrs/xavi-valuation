@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+.pytest_cache/
+
+# local tooling
+.claude/
+
+# re-downloadable source data (py -3.12 fetch_sec.py)
+data/raw/
+
+# demo build intermediates (py -3.12 demo/capture.py re-creates them)
+demo/frames/
+demo/audio/
+*.video.mp4
+*.voice.wav
+
+# generated outputs that are rebuilt on demand
+output/*.csv
+output/xavi_logo.png
