@@ -1,0 +1,7 @@
+# Runtime dependencies for the dashboard (app.py) -- what Streamlit Community Cloud installs.
+# Data-refresh, Excel and demo-film scripts need extras: see README.
+streamlit==1.64.0
+pandas==3.0.6
+numpy==2.5.3
+plotly==7.1.0
+scipy==1.18.1
