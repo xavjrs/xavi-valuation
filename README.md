@@ -6,6 +6,8 @@ formulas, and an audit. Not investment advice.
 
 ![XAVI](demo/XAVI_poster.png)
 
+**Try it live:** https://xavi-valuation.streamlit.app (free hosting; if it has been idle, click the wake-up button and wait about 30 seconds)
+
 ## Watch
 - [Narrated explainer, desktop](demo/XAVI_explainer_desktop.mp4) (6 min)
 - [Narrated explainer, mobile](demo/XAVI_explainer_vertical.mp4) (6 min)
