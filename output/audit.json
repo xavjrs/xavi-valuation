@@ -1,5 +1,5 @@
 {
-  "run_at": "2026-11-02 20:34",
+  "run_at": "2026-11-02 20:36",
   "passed": 86,
   "total": 86,
   "results": [
@@ -259,7 +259,7 @@
       "area": "Monte Carlo",
       "check": "SHELL: zero-shock path reproduces the DCF",
       "passed": true,
-      "detail": "2,653.4060p vs 2,653.4060p"
+      "detail": "2,653.1908p vs 2,653.1908p"
     },
     {
       "area": "DCF",
@@ -283,7 +283,7 @@
       "area": "Monte Carlo",
       "check": "BP: zero-shock path reproduces the DCF",
       "passed": true,
-      "detail": "916.3386p vs 916.3386p"
+      "detail": "916.2610p vs 916.2610p"
     },
     {
       "area": "LBO",
@@ -433,7 +433,7 @@
       "area": "Merger",
       "check": "all stock, 10% divested: opening balance sheet balances",
       "passed": true,
-      "detail": "-5.8e-11"
+      "detail": "0.0e+00"
     },
     {
       "area": "Merger",
@@ -517,7 +517,7 @@
       "area": "Tests",
       "check": "Automated test suite passes",
       "passed": true,
-      "detail": "87 passed in 9.43s"
+      "detail": "87 passed in 3.49s"
     }
   ]
 }

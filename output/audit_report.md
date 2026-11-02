@@ -1,6 +1,6 @@
 # XAVI model audit
 
-Run 2026-11-02 20:34: **86 of 86 checks pass.**
+Run 2026-11-02 20:36: **86 of 86 checks pass.**
 
 ## Data
 
@@ -66,8 +66,8 @@ Run 2026-11-02 20:34: **86 of 86 checks pass.**
 
 | Status | Check | Detail |
 |---|---|---|
-| PASS | SHELL: zero-shock path reproduces the DCF | 2,653.4060p vs 2,653.4060p |
-| PASS | BP: zero-shock path reproduces the DCF | 916.3386p vs 916.3386p |
+| PASS | SHELL: zero-shock path reproduces the DCF | 2,653.1908p vs 2,653.1908p |
+| PASS | BP: zero-shock path reproduces the DCF | 916.2610p vs 916.2610p |
 
 ## LBO
 
@@ -102,7 +102,7 @@ Run 2026-11-02 20:34: **86 of 86 checks pass.**
 | PASS | default terms: pro forma forecast balances |  |
 | PASS | default terms: sources = uses |  |
 | PASS | default terms: goodwill = price − fair value of net assets |  |
-| PASS | all stock, 10% divested: opening balance sheet balances | -5.8e-11 |
+| PASS | all stock, 10% divested: opening balance sheet balances | 0.0e+00 |
 | PASS | all stock, 10% divested: pro forma forecast balances |  |
 | PASS | all stock, 10% divested: sources = uses |  |
 | PASS | all stock, 10% divested: goodwill = price − fair value of net assets |  |
@@ -131,4 +131,4 @@ Run 2026-11-02 20:34: **86 of 86 checks pass.**
 
 | Status | Check | Detail |
 |---|---|---|
-| PASS | Automated test suite passes | 87 passed in 9.43s |
+| PASS | Automated test suite passes | 87 passed in 3.49s |
