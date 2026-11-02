@@ -22,6 +22,26 @@ st.markdown(f"<style>{CSS}</style>", unsafe_allow_html=True)
 NAMES = {"shell": "Shell plc", "bp": "BP p.l.c."}
 
 
+def data_version() -> tuple:
+    """Fingerprint of the data files (name, size, modified time). The daily refresh commits new data without touching
+    the code, and Streamlit only resets its caches when code changes, so the caches are cleared here instead."""
+    files = sorted(Path("data/clean").glob("*")) + [Path("output/audit.json")]
+    return tuple((f.name, f.stat().st_size, f.stat().st_mtime_ns) for f in files if f.exists())
+
+
+@st.cache_resource
+def _last_seen() -> dict:
+    return {"version": None}
+
+
+_seen, _now = _last_seen(), data_version()
+if _seen["version"] != _now:
+    st.cache_data.clear()
+    from model.ma import standalone
+    standalone.cache_clear()
+    _seen["version"] = _now
+
+
 @st.cache_data(show_spinner="Running model and 10,000-path simulation…")
 def cached_compute(s: Settings) -> dict:
     return compute(s)
