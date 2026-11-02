@@ -1,0 +1,62 @@
+# Daily market-data refresh for the live dashboard.
+#
+# Every morning (06:30 UTC, after the previous day's London and New York closes) this downloads fresh prices and
+# market inputs, re-runs the full test suite and the 86-check audit, and commits the new data only if everything
+# passes. Streamlit Community Cloud redeploys the app automatically when the commit lands. If any step fails, nothing
+# is committed: the app keeps yesterday's data and GitHub emails the repository owner.
+#
+# Run it by hand from the Actions tab ("Run workflow"). Filings (SEC 20-F) change once a year and are refreshed
+# manually with fetch_sec.py / extract.py.
+name: Daily data refresh
+
+on:
+  schedule:
+    - cron: "30 6 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: [".github/workflows/refresh-data.yml", "fetch_prices.py", "fetch_market.py"]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: data-refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install
+        run: pip install -r requirements.txt yfinance requests openpyxl pytest
+
+      - name: Fetch prices
+        run: python fetch_prices.py
+
+      - name: Fetch market inputs
+        run: python fetch_market.py
+
+      - name: Tests and audit (must all pass before anything is published)
+        run: python audit.py
+
+      - name: Publish new data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/clean/prices.csv data/clean/market_inputs.json output/audit.json output/audit_report.md
+          if git diff --cached --quiet; then
+            echo "No new market data since the last run."
+            exit 0
+          fi
+          git commit -m "Daily data refresh $(date -u +%Y-%m-%d)"
+          git pull --rebase origin main
+          git push

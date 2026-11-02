@@ -1,6 +1,6 @@
 # XAVI model audit
 
-Run 2026-10-12 19:19: **86 of 86 checks pass.**
+Run 2026-11-02 20:34: **86 of 86 checks pass.**
 
 ## Data
 
@@ -30,9 +30,9 @@ Run 2026-10-12 19:19: **86 of 86 checks pass.**
 | PASS | Shell segments 2025: tax ties to group accounts | segment total 11,637 vs group 11,637 |
 | PASS | Shell segments 2025: income ties to group accounts | segment total 18,119 vs group 18,119 |
 | PASS | Shell segments: every row sums to its reported total | max rounding difference $0m |
-| PASS | Price history is recent (≤ 7 days old) | last price 2026-10-12, 0 days old |
-| PASS | Market inputs match the latest price date | market inputs 2026-10-12 vs prices 2026-10-12 |
-| PASS | Price gaps are holiday-sized only (< 5% of days) | max gaps 52 of 1503 days |
+| PASS | Price history is recent (≤ 7 days old) | last price 2026-11-02, 0 days old |
+| PASS | Market inputs match the latest price date | market inputs 2026-11-02 vs prices 2026-11-02 |
+| PASS | Price gaps are holiday-sized only (< 5% of days) | max gaps 52 of 1518 days |
 
 ## Forecast
 
@@ -66,8 +66,8 @@ Run 2026-10-12 19:19: **86 of 86 checks pass.**
 
 | Status | Check | Detail |
 |---|---|---|
-| PASS | SHELL: zero-shock path reproduces the DCF | 2,621.1419p vs 2,621.1419p |
-| PASS | BP: zero-shock path reproduces the DCF | 907.9631p vs 907.9631p |
+| PASS | SHELL: zero-shock path reproduces the DCF | 2,653.4060p vs 2,653.4060p |
+| PASS | BP: zero-shock path reproduces the DCF | 916.3386p vs 916.3386p |
 
 ## LBO
 
@@ -98,7 +98,7 @@ Run 2026-10-12 19:19: **86 of 86 checks pass.**
 
 | Status | Check | Detail |
 |---|---|---|
-| PASS | default terms: opening balance sheet balances | -2.9e-11 |
+| PASS | default terms: opening balance sheet balances | 2.9e-11 |
 | PASS | default terms: pro forma forecast balances |  |
 | PASS | default terms: sources = uses |  |
 | PASS | default terms: goodwill = price − fair value of net assets |  |
@@ -106,7 +106,7 @@ Run 2026-10-12 19:19: **86 of 86 checks pass.**
 | PASS | all stock, 10% divested: pro forma forecast balances |  |
 | PASS | all stock, 10% divested: sources = uses |  |
 | PASS | all stock, 10% divested: goodwill = price − fair value of net assets |  |
-| PASS | all cash, 50% premium: opening balance sheet balances | -2.9e-11 |
+| PASS | all cash, 50% premium: opening balance sheet balances | 0.0e+00 |
 | PASS | all cash, 50% premium: pro forma forecast balances |  |
 | PASS | all cash, 50% premium: sources = uses |  |
 | PASS | all cash, 50% premium: goodwill = price − fair value of net assets |  |
@@ -131,4 +131,4 @@ Run 2026-10-12 19:19: **86 of 86 checks pass.**
 
 | Status | Check | Detail |
 |---|---|---|
-| PASS | Automated test suite passes | 87 passed in 6.81s |
+| PASS | Automated test suite passes | 87 passed in 9.43s |

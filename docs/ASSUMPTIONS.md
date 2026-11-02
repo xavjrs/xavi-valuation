@@ -44,7 +44,7 @@ Change points: **Sidebar** = dashboard sidebar; **Tab** = controls on that dashb
 | Exit multiple (cross-check only) | 5.0x EBITDA | Rough sector level; not sourced from peers | Judgement | Sidebar |
 | Debt-like items | Decommissioning provisions and pension deficit deducted after tax | Prudence; switchable | Judgement | Sidebar toggle |
 | JV stakes | Added at book value | Simplification | Judgement | n/a |
-| Valuation date | 10 Oct 2026 | Value struck at 31 Dec 2025 and rolled forward at the cost of equity less interim dividends | Convention | `dcf.py` (ValuationInputs) |
+| Valuation date | Latest price date (refreshed daily) | Value struck at 31 Dec 2025 and rolled forward at the cost of equity less interim dividends | Convention | `model/setup.py` |
 
 ## 3. Monte Carlo
 

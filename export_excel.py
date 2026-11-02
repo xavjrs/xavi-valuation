@@ -197,7 +197,7 @@ val_inputs = [("risk_free", "Risk-free rate (US 10y, blend of spot and 1-year av
               ("shares_m", "Shares outstanding", "m", mk["shares_m"], NUM1, "Yahoo Finance; matches the 20-F cover (5,690m at 31 Dec 2025)."),
               ("price_pence", "Share price", "GBp", mk["price_gbp_pence"], NUM1, f"London close {mk['price_date']}, Yahoo Finance."),
               ("gbpusd", "GBP/USD", "USD per GBP", fx, NUM4, "Yahoo Finance."),
-              ("valuation_date", "Valuation date", "date", dt.datetime(2026, 10, 10), "yyyy-mm-dd", "Value struck at 31 Dec 2025, rolled forward to this date.")]
+              ("valuation_date", "Valuation date", "date", dt.datetime.combine(v.valuation_date, dt.time()), "yyyy-mm-dd", "Latest price date: value struck at 31 Dec 2025, rolled forward to this date.")]
 for key, lab, unit, x, fmt, note in val_inputs:
     cell(wsI, f"A{row}", lab, comment=note); cell(wsI, f"B{row}", unit, F_NOTE)
     cell(wsI, f"C{row}", x if isinstance(x, dt.datetime) else float(x), F_IN, fmt, fill=FILL_KEY if key in ("erp", "terminal_growth") else None)

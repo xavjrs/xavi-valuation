@@ -1,5 +1,6 @@
 """Shared glue: build valuation inputs / bridge for a company from history + market data."""
 from __future__ import annotations
+import datetime as dt
 import json
 import pandas as pd
 from model.three_statement import BASE_YEAR, load_history, default_assumptions, forecast
@@ -19,7 +20,8 @@ def valuation_inputs(h: pd.DataFrame, mk: dict, company: str, rf_mode: str = "bl
     rf = {"spot": c["risk_free_spot"], "blend": c["risk_free_blend"], "1y": c["risk_free_1y_avg"]}[rf_mode]
     debt_book = float(h.loc["debt_current", BASE_YEAR] + h.loc["debt_long", BASE_YEAR] + h.loc["lease_liabilities", BASE_YEAR])
     kw = dict(risk_free=rf, equity_risk_premium=c["equity_risk_premium"], beta=m["beta_blume"],
-              market_cap_usd_m=market_cap_usd(m, c["gbpusd"]), debt_usd_m=debt_book)
+              market_cap_usd_m=market_cap_usd(m, c["gbpusd"]), debt_usd_m=debt_book,
+              valuation_date=dt.date.fromisoformat(m["price_date"]))   # value is struck at the latest price date
     kw.update(over)
     return ValuationInputs(**kw)
 

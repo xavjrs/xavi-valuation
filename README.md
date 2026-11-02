@@ -8,6 +8,8 @@ formulas, and an audit. Not investment advice.
 
 **Try it live:** https://xavi-valuation.streamlit.app (free hosting; if it has been idle, click the wake-up button and wait about 30 seconds)
 
+Market data refreshes automatically every morning (06:30 UTC) through a GitHub Action that re-runs the tests and the audit before publishing; see `.github/workflows/refresh-data.yml`. Company filings are annual. The videos, slides and Excel workbook show figures as of 12 Oct 2026.
+
 ## Watch
 - [Narrated explainer, desktop](demo/XAVI_explainer_desktop.mp4) (6 min)
 - [Narrated explainer, mobile](demo/XAVI_explainer_vertical.mp4) (6 min)
