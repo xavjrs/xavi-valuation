@@ -1,27 +1,27 @@
 {
   "shell": {
     "ticker": "SHEL.L",
-    "price_gbp_pence": 3872.0,
-    "price_date": "2026-11-03",
-    "shares_m": 5670.888224,
-    "beta_raw": 0.953,
-    "beta_blume": 0.969,
+    "price_gbp_pence": 3855.0,
+    "price_date": "2026-11-04",
+    "shares_m": 5669.033224,
+    "beta_raw": 0.946,
+    "beta_blume": 0.964,
     "beta_obs_weeks": 304
   },
   "bp": {
     "ticker": "BP.L",
-    "price_gbp_pence": 587.7000122070312,
-    "price_date": "2026-11-03",
+    "price_gbp_pence": 584.2999877929688,
+    "price_date": "2026-11-04",
     "shares_m": 15453.912643,
-    "beta_raw": 0.913,
-    "beta_blume": 0.942,
+    "beta_raw": 0.902,
+    "beta_blume": 0.934,
     "beta_obs_weeks": 304
   },
   "_common": {
-    "gbpusd": 1.3421016931533811,
-    "risk_free_spot": 0.049210000038146975,
-    "risk_free_1y_avg": 0.0446652379773912,
-    "risk_free_blend": 0.04693761900776909,
+    "gbpusd": 1.3480722904205322,
+    "risk_free_spot": 0.049250001907348635,
+    "risk_free_1y_avg": 0.044698968151259046,
+    "risk_free_blend": 0.04697448502930384,
     "short_rate": 0.040250000953674314,
     "equity_risk_premium": 0.05
   }
