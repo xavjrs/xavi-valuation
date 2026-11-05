@@ -1,5 +1,5 @@
 {
-  "run_at": "2026-11-04 14:45",
+  "run_at": "2026-11-05 14:51",
   "passed": 86,
   "total": 86,
   "results": [
@@ -151,19 +151,19 @@
       "area": "Data",
       "check": "Price history is recent (\u2264 7 days old)",
       "passed": true,
-      "detail": "last price 2026-11-04, 0 days old"
+      "detail": "last price 2026-11-05, 0 days old"
     },
     {
       "area": "Data",
       "check": "Market inputs match the latest price date",
       "passed": true,
-      "detail": "market inputs 2026-11-04 vs prices 2026-11-04"
+      "detail": "market inputs 2026-11-05 vs prices 2026-11-05"
     },
     {
       "area": "Data",
       "check": "Price gaps are holiday-sized only (< 5% of days)",
       "passed": true,
-      "detail": "max gaps 52 of 1520 days"
+      "detail": "max gaps 52 of 1521 days"
     },
     {
       "area": "Forecast",
@@ -259,7 +259,7 @@
       "area": "Monte Carlo",
       "check": "SHELL: zero-shock path reproduces the DCF",
       "passed": true,
-      "detail": "2,648.6105p vs 2,648.6105p"
+      "detail": "2,681.8366p vs 2,681.8366p"
     },
     {
       "area": "DCF",
@@ -283,7 +283,7 @@
       "area": "Monte Carlo",
       "check": "BP: zero-shock path reproduces the DCF",
       "passed": true,
-      "detail": "916.7410p vs 916.7410p"
+      "detail": "931.0588p vs 931.0588p"
     },
     {
       "area": "LBO",
@@ -433,7 +433,7 @@
       "area": "Merger",
       "check": "all stock, 10% divested: opening balance sheet balances",
       "passed": true,
-      "detail": "-5.8e-11"
+      "detail": "5.8e-11"
     },
     {
       "area": "Merger",
@@ -457,7 +457,7 @@
       "area": "Merger",
       "check": "all cash, 50% premium: opening balance sheet balances",
       "passed": true,
-      "detail": "0.0e+00"
+      "detail": "2.9e-11"
     },
     {
       "area": "Merger",
@@ -517,7 +517,7 @@
       "area": "Tests",
       "check": "Automated test suite passes",
       "passed": true,
-      "detail": "87 passed in 3.49s"
+      "detail": "87 passed in 3.72s"
     }
   ]
 }
