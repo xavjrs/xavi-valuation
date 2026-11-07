@@ -1,5 +1,5 @@
 {
-  "run_at": "2026-11-06 14:28",
+  "run_at": "2026-11-07 13:23",
   "passed": 86,
   "total": 86,
   "results": [
@@ -151,7 +151,7 @@
       "area": "Data",
       "check": "Price history is recent (\u2264 7 days old)",
       "passed": true,
-      "detail": "last price 2026-11-06, 0 days old"
+      "detail": "last price 2026-11-06, 1 days old"
     },
     {
       "area": "Data",
@@ -163,7 +163,7 @@
       "area": "Data",
       "check": "Price gaps are holiday-sized only (< 5% of days)",
       "passed": true,
-      "detail": "max gaps 53 of 1522 days"
+      "detail": "max gaps 52 of 1522 days"
     },
     {
       "area": "Forecast",
@@ -259,7 +259,7 @@
       "area": "Monte Carlo",
       "check": "SHELL: zero-shock path reproduces the DCF",
       "passed": true,
-      "detail": "2,697.2582p vs 2,697.2582p"
+      "detail": "2,677.8759p vs 2,677.8759p"
     },
     {
       "area": "DCF",
@@ -283,7 +283,7 @@
       "area": "Monte Carlo",
       "check": "BP: zero-shock path reproduces the DCF",
       "passed": true,
-      "detail": "935.2209p vs 935.2209p"
+      "detail": "928.7371p vs 928.7371p"
     },
     {
       "area": "LBO",
@@ -457,7 +457,7 @@
       "area": "Merger",
       "check": "all cash, 50% premium: opening balance sheet balances",
       "passed": true,
-      "detail": "-2.9e-11"
+      "detail": "0.0e+00"
     },
     {
       "area": "Merger",
@@ -517,7 +517,7 @@
       "area": "Tests",
       "check": "Automated test suite passes",
       "passed": true,
-      "detail": "87 passed in 3.63s"
+      "detail": "87 passed in 3.50s"
     }
   ]
 }
