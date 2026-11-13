@@ -1,5 +1,5 @@
 {
-  "run_at": "2026-11-12 15:28",
+  "run_at": "2026-11-13 14:46",
   "passed": 86,
   "total": 86,
   "results": [
@@ -151,19 +151,19 @@
       "area": "Data",
       "check": "Price history is recent (\u2264 7 days old)",
       "passed": true,
-      "detail": "last price 2026-11-12, 0 days old"
+      "detail": "last price 2026-11-13, 0 days old"
     },
     {
       "area": "Data",
       "check": "Market inputs match the latest price date",
       "passed": true,
-      "detail": "market inputs 2026-11-12 vs prices 2026-11-12"
+      "detail": "market inputs 2026-11-13 vs prices 2026-11-13"
     },
     {
       "area": "Data",
       "check": "Price gaps are holiday-sized only (< 5% of days)",
       "passed": true,
-      "detail": "max gaps 52 of 1526 days"
+      "detail": "max gaps 52 of 1527 days"
     },
     {
       "area": "Forecast",
@@ -259,7 +259,7 @@
       "area": "Monte Carlo",
       "check": "SHELL: zero-shock path reproduces the DCF",
       "passed": true,
-      "detail": "2,698.8352p vs 2,698.8352p"
+      "detail": "2,664.8401p vs 2,664.8401p"
     },
     {
       "area": "DCF",
@@ -283,7 +283,7 @@
       "area": "Monte Carlo",
       "check": "BP: zero-shock path reproduces the DCF",
       "passed": true,
-      "detail": "927.3831p vs 927.3831p"
+      "detail": "913.3740p vs 913.3740p"
     },
     {
       "area": "LBO",
@@ -409,7 +409,7 @@
       "area": "Merger",
       "check": "default terms: opening balance sheet balances",
       "passed": true,
-      "detail": "-2.9e-11"
+      "detail": "2.9e-11"
     },
     {
       "area": "Merger",
@@ -457,7 +457,7 @@
       "area": "Merger",
       "check": "all cash, 50% premium: opening balance sheet balances",
       "passed": true,
-      "detail": "-2.9e-11"
+      "detail": "0.0e+00"
     },
     {
       "area": "Merger",
@@ -517,7 +517,7 @@
       "area": "Tests",
       "check": "Automated test suite passes",
       "passed": true,
-      "detail": "87 passed in 2.01s"
+      "detail": "87 passed in 3.49s"
     }
   ]
 }
