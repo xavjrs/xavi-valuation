@@ -1,5 +1,5 @@
 {
-  "run_at": "2026-11-13 14:46",
+  "run_at": "2026-11-14 13:42",
   "passed": 86,
   "total": 86,
   "results": [
@@ -151,7 +151,7 @@
       "area": "Data",
       "check": "Price history is recent (\u2264 7 days old)",
       "passed": true,
-      "detail": "last price 2026-11-13, 0 days old"
+      "detail": "last price 2026-11-13, 1 days old"
     },
     {
       "area": "Data",
@@ -259,7 +259,7 @@
       "area": "Monte Carlo",
       "check": "SHELL: zero-shock path reproduces the DCF",
       "passed": true,
-      "detail": "2,664.8401p vs 2,664.8401p"
+      "detail": "2,672.8363p vs 2,672.8363p"
     },
     {
       "area": "DCF",
@@ -283,7 +283,7 @@
       "area": "Monte Carlo",
       "check": "BP: zero-shock path reproduces the DCF",
       "passed": true,
-      "detail": "913.3740p vs 913.3740p"
+      "detail": "914.9358p vs 914.9358p"
     },
     {
       "area": "LBO",
@@ -409,7 +409,7 @@
       "area": "Merger",
       "check": "default terms: opening balance sheet balances",
       "passed": true,
-      "detail": "2.9e-11"
+      "detail": "1.2e-10"
     },
     {
       "area": "Merger",
@@ -457,7 +457,7 @@
       "area": "Merger",
       "check": "all cash, 50% premium: opening balance sheet balances",
       "passed": true,
-      "detail": "0.0e+00"
+      "detail": "2.9e-11"
     },
     {
       "area": "Merger",
@@ -517,7 +517,7 @@
       "area": "Tests",
       "check": "Automated test suite passes",
       "passed": true,
-      "detail": "87 passed in 3.49s"
+      "detail": "87 passed in 3.50s"
     }
   ]
 }
