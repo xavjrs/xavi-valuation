@@ -1,5 +1,5 @@
 {
-  "run_at": "2026-11-21 14:50",
+  "run_at": "2026-11-22 14:46",
   "passed": 86,
   "total": 86,
   "results": [
@@ -151,7 +151,7 @@
       "area": "Data",
       "check": "Price history is recent (\u2264 7 days old)",
       "passed": true,
-      "detail": "last price 2026-11-21, 0 days old"
+      "detail": "last price 2026-11-22, 0 days old"
     },
     {
       "area": "Data",
@@ -517,7 +517,7 @@
       "area": "Tests",
       "check": "Automated test suite passes",
       "passed": true,
-      "detail": "87 passed in 2.09s"
+      "detail": "87 passed in 2.12s"
     }
   ]
 }

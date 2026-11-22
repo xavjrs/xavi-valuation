@@ -1,6 +1,6 @@
 # XAVI model audit
 
-Run 2026-11-21 14:50: **86 of 86 checks pass.**
+Run 2026-11-22 14:46: **86 of 86 checks pass.**
 
 ## Data
 
@@ -30,7 +30,7 @@ Run 2026-11-21 14:50: **86 of 86 checks pass.**
 | PASS | Shell segments 2025: tax ties to group accounts | segment total 11,637 vs group 11,637 |
 | PASS | Shell segments 2025: income ties to group accounts | segment total 18,119 vs group 18,119 |
 | PASS | Shell segments: every row sums to its reported total | max rounding difference $0m |
-| PASS | Price history is recent (≤ 7 days old) | last price 2026-11-21, 0 days old |
+| PASS | Price history is recent (≤ 7 days old) | last price 2026-11-22, 0 days old |
 | PASS | Market inputs match the latest price date | market inputs 2026-11-20 vs prices 2026-11-20 |
 | PASS | Price gaps are holiday-sized only (< 5% of days) | max gaps 53 of 1533 days |
 
@@ -131,4 +131,4 @@ Run 2026-11-21 14:50: **86 of 86 checks pass.**
 
 | Status | Check | Detail |
 |---|---|---|
-| PASS | Automated test suite passes | 87 passed in 2.09s |
+| PASS | Automated test suite passes | 87 passed in 2.12s |
