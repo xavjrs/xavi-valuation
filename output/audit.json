@@ -1,5 +1,5 @@
 {
-  "run_at": "2026-11-24 18:01",
+  "run_at": "2026-11-25 17:28",
   "passed": 86,
   "total": 86,
   "results": [
@@ -151,19 +151,19 @@
       "area": "Data",
       "check": "Price history is recent (\u2264 7 days old)",
       "passed": true,
-      "detail": "last price 2026-11-24, 0 days old"
+      "detail": "last price 2026-11-25, 0 days old"
     },
     {
       "area": "Data",
       "check": "Market inputs match the latest price date",
       "passed": true,
-      "detail": "market inputs 2026-11-24 vs prices 2026-11-24"
+      "detail": "market inputs 2026-11-25 vs prices 2026-11-25"
     },
     {
       "area": "Data",
       "check": "Price gaps are holiday-sized only (< 5% of days)",
       "passed": true,
-      "detail": "max gaps 52 of 1534 days"
+      "detail": "max gaps 52 of 1535 days"
     },
     {
       "area": "Forecast",
@@ -259,7 +259,7 @@
       "area": "Monte Carlo",
       "check": "SHELL: zero-shock path reproduces the DCF",
       "passed": true,
-      "detail": "2,804.1693p vs 2,804.1693p"
+      "detail": "2,823.1050p vs 2,823.1050p"
     },
     {
       "area": "DCF",
@@ -283,7 +283,7 @@
       "area": "Monte Carlo",
       "check": "BP: zero-shock path reproduces the DCF",
       "passed": true,
-      "detail": "961.1088p vs 961.1088p"
+      "detail": "967.3382p vs 967.3382p"
     },
     {
       "area": "LBO",
@@ -409,7 +409,7 @@
       "area": "Merger",
       "check": "default terms: opening balance sheet balances",
       "passed": true,
-      "detail": "2.9e-11"
+      "detail": "5.8e-11"
     },
     {
       "area": "Merger",
@@ -433,7 +433,7 @@
       "area": "Merger",
       "check": "all stock, 10% divested: opening balance sheet balances",
       "passed": true,
-      "detail": "5.8e-11"
+      "detail": "-5.8e-11"
     },
     {
       "area": "Merger",
@@ -457,7 +457,7 @@
       "area": "Merger",
       "check": "all cash, 50% premium: opening balance sheet balances",
       "passed": true,
-      "detail": "8.7e-11"
+      "detail": "-2.9e-11"
     },
     {
       "area": "Merger",
@@ -517,7 +517,7 @@
       "area": "Tests",
       "check": "Automated test suite passes",
       "passed": true,
-      "detail": "87 passed in 3.44s"
+      "detail": "87 passed in 3.47s"
     }
   ]
 }
