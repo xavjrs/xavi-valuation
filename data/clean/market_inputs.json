@@ -3,7 +3,7 @@
     "ticker": "SHEL.L",
     "price_gbp_pence": 3643.0,
     "price_date": "2026-11-27",
-    "shares_m": 5634.577209,
+    "shares_m": 5632.721198,
     "beta_raw": 0.942,
     "beta_blume": 0.961,
     "beta_obs_weeks": 307
@@ -18,11 +18,11 @@
     "beta_obs_weeks": 307
   },
   "_common": {
-    "gbpusd": 1.3102209568023682,
-    "risk_free_spot": 0.04932000160217285,
-    "risk_free_1y_avg": 0.04525603164756109,
-    "risk_free_blend": 0.047288016624866966,
-    "short_rate": 0.041549997329711916,
+    "gbpusd": 1.3107362985610962,
+    "risk_free_spot": 0.04935999870300293,
+    "risk_free_1y_avg": 0.04525619036621517,
+    "risk_free_blend": 0.047308094534609046,
+    "short_rate": 0.041529998779296876,
     "equity_risk_premium": 0.05
   }
 }
